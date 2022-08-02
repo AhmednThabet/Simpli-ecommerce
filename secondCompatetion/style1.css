@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}   
+body{
+    Overflow-x:hidden
+}
+.header1 .devolper-name{
+    position: relative; 
+    color:rgb(24, 23, 23);
+    border:black solid 2px; 
+    font-size: 18px;
+    width: 200px; 
+    height: 60px; 
+} 
+.header1 .devolper-name p{
+    position: absolute;
+    top: 20px; 
+    left: 40px;
+}
+
+.header1
+{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 50px;
+} 
+.header1 i{
+    padding: 0px 10px;
+
+}  
+
+.header1 i input{
+    width: 240px;
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39); 
+    transition: width 1s linear 2s;
+   
+
+} 
+.header1 i input:hover{ 
+    
+    padding-left: 10px;
+}
+.header1 i:hover{
+    transform: translate(0,-5px);
+    color: rgb(142, 42, 182); 
+
+
+} 
+.firstline
+{
+   margin-top: 40px;
+   background-color: rgb(158, 158, 158);
+   opacity: 0.15;
+}
+.divoflinks
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.divoflinks a
+{
+    text-decoration: none;
+    color:black;
+    margin:30px 0 0 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divoflinks a:hover
+{
+    color:rgb(180, 48, 233);
+}
+
+.contact { 
+    width: 100%;
+    height: auto;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }  
+ .container{
+     position: relative;
+ }
+
+ .address{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(228, 220, 220, 0.432);  
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center;  
+    padding-left: 50px;  
+    margin-top: 20px;
+ }   
+.contact .container  .address p.home{  
+    margin: 10px 10px; 
+    color: rgb(97, 48, 233);
+
+
+}  
+.contact .container  .address i{  
+    transform: rotate(-90deg);
+    
+
+}  
+
+/* .container .get-in-tuch{
+    width: 100%;
+    height: 30px; 
+    margin: 20px 0 0 30px; 
+    padding: 30px 0 0 57px;
+} */
+.container .get-in-tuch{  
+/* width: 20%; 
+height: 30px; */
+position: relative; 
+
+font-size: 18px; 
+font-weight: 550; 
+word-spacing: 4px; 
+margin-bottom: 50px;
+} 
+.container .get-in-tuch p{
+    position: absolute;
+    top: 10px;
+    left: 87px;
+}
+.box{
+    width: 80%;
+    height: 500px; 
+    border:0 solid rgba(0, 0, 0, 0.2); 
+  
+    box-shadow: 0 2px 6px 0;  
+    border-radius: 3px; 
+    margin-left: 90px;
+    margin-top: 56px;
+    
+
+}  
+.box .form{
+    width: 100%;
+    height: 450px; 
+    margin: 30px 40px 10px 19px;
+}
+.box .form .name-father{ 
+   
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    padding: 30px 20px;
+}    
+.form .name-father .fname  ,.form .name-father .lname {
+    font-size: 14px; 
+    font-weight: bold; 
+    margin-top: 30px;
+    padding-right: 20px; 
+ 
+    
+   
+} 
+.form .name-father .fname input ,.form .name-father .lname input{
+    width: 230px; 
+    height: 30px; 
+    outline: none; 
+  border: 1px solid  rgba(0, 0, 0, 0.2) ; 
+  border-radius: 4px;   
+  margin-top: 20px;
+ 
+  
+}
+
+
+.box  .form .last{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 30px 21px;
+    font-size: 14px; 
+    font-weight: 550;
+} 
+.box  .form .last label{
+    margin: 10px 0;
+}  
+.box  .form .last input{
+    width: 500px; 
+    height: 30px; 
+    outline: none; 
+  border: 1px solid  rgba(0, 0, 0, 0.2) ; 
+  border-radius: 4px;
+} 
+.box  .form .last textarea{
+    border: 1px solid rgba(0, 0, 0, 0.2) ; 
+    border-radius: 4px; 
+    outline: none;
+}  
+.box  .form .botton { 
+    width: 400px; 
+    height: 40px; 
+    background-color:rgb(97, 48, 233) ; 
+    margin-left: 30px;  
+    margin-top: 20px; 
+    margin-bottom: 10px;
+    transition: width 1s linear 1s ; 
+    border-radius: 4px;
+    
+    
+}  
+.box  .form .botton a{ 
+    text-decoration: none;
+    color: white; 
+    font-size: 16px; 
+    word-spacing: 4px;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 10px;  
+    transition: width 1s linear 1s;
+
+} 
+.box  .form .botton:hover{
+    background-color: rgba(96, 52, 214, 0.87);   
+   margin-left: 28px; 
+   margin-bottom: 5px; 
+   box-shadow: 0 2px 6px 0; 
+  
+}  
+.display{
+    height: 650px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row; 
+    row-gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+} 
+
+.display .secound-div .ciety-card{ 
+    width: 100%;
+    height: 500px; 
+    margin-top: 50px;
+ 
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; 
+    
+    flex-wrap: nowrap;
+} 
+.display .secound-div .ciety-card .newyork ,.london ,.canada{
+    width: 100%;
+    height: 85px; 
+    margin: 10px 15px;
+    border:1px solid rgba(0, 0, 0, 0.199); 
+   
+    
+}  
+
+.display .secound-div .ciety-card .newyork p.city-name,.london p.city-name ,.canada p.city-name{
+    padding: 10px 15px; 
+    font-size: 16px; 
+    color:  rgba(96, 52, 214, 0.87); 
+    font-weight: 550;
+} 
+.display .secound-div .ciety-card .newyork p,.london p ,.canada p{ 
+    padding: 3px 16px;
+    font-size: 14px; 
+    color: rgba(0, 0, 0, 0.521);
+} 
+
+.thirdline
+{
+    margin-top:180px;
+    background-color: rgb(158, 158, 158);
+    opacity: 0.15;   
+}
+.section5 
+{
+    position: relative;
+    left:77%;
+    margin-top: 70px;
+    margin-right:90px;
+}
+.section5 .divsection5 .heading7
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section5 .divsection5 .para18
+{
+    color:gray;
+    position: relative;
+    top:55px;
+    left:30px;
+}
+.section5 .div2section5 input
+{
+    border:1 solid gray;
+    padding:12px;
+    outline:none;
+    position: relative;
+    margin-top: 15px;
+
+}
+.section5 .div2section5 .para21
+{
+    background: blueviolet;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 132px;
+    top: 44px;
+    padding:9px;
+    border-radius:2px;
+    text-decoration: none;
+}
+.section5 .div2section5
+{
+    position: relative;
+    top:150px;
+}
+.section5 .div2section5 .para20
+{
+    font-size: 22px;
+}
+.section5 .divsection5 .para19
+{
+  position: relative;
+  top:80px;
+  left:30px;
+}
+.section5 .divsection5 .para17
+{
+    position: relative;
+    top:30px;
+    left:30px;
+}
+.divsection6
+{
+    position: relative;
+    bottom: 185px;
+    left:70px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section6 .div2section6
+{
+    margin-top: 25px;
+    color:gray;
+    line-height: 40px;
+    font-size: 15px;
+}
+.section6 .divsection6 .div3section6
+{
+    margin-top: 25px;
+    color:gray;
+    position: relative;
+    bottom: 185px;
+    left:210px;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section6 .div4section6
+{
+    margin-top: 25px;
+    color:gray;
+    position: relative;
+    bottom: 328px;
+    left: 462px;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section6 .div5section7
+{
+   position: absolute;
+   left:48%;
+   bottom: 259px;
+}
+.section6 .div5section7 img
+{
+    width:300px;
+    height:150px;
+    position: relative;
+    top:10px;
+}
+.section6 .div5section7 .para33
+{
+    position: relative;
+    bottom:18px;
+}
+.section6 .div5section7 .para34
+{
+    color:blueviolet;
+    position: relative;
+    top:20px;
+    font-size: 15px;
+}
+.section6 .div5section7 .para35
+{
+    color:gray;
+    position: relative;
+    top:30px;
+    font-size: 15px;
+
+}
+.para36
+{
+    color:gray;
+    text-align: center;
+    position: relative;
+    bottom:200px;
+}
+
+
+

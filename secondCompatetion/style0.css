@@ -1,0 +1,627 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    Overflow-x:hidden
+}
+.header1 .devolper-name{
+    position: relative; 
+    color:rgb(24, 23, 23);
+    border:black solid 2px; 
+    font-size: 18px;
+    width: 200px; 
+    height: 60px; 
+} 
+.header1 .devolper-name p{
+    position: absolute;
+    top: 20px; 
+    left: 40px;
+}
+
+.header1
+{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 50px;
+} 
+.header1 i{
+    padding: 0px 10px;
+    color: black;
+    font-size: 20px !important;
+
+}  
+
+.header1 i input{
+    width: 240px;
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39); 
+    transition: width 1s linear 2s;
+   
+
+} 
+.header1 i input:hover{ 
+    
+    padding-left: 10px;
+}
+.header1 i:hover{
+    transform: translate(0,-5px);
+    color: rgb(142, 42, 182); 
+
+
+} 
+.firstline
+{
+   margin-top: 40px;
+   background-color: rgb(158, 158, 158);
+   opacity: 0.15;
+}
+.divoflinks
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.divoflinks a
+{
+    text-decoration: none;
+    color:black;
+    margin:30px 0 0 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divoflinks a:hover
+{
+    color:rgb(180, 48, 233);
+}
+.divofbackground1 img
+{
+    margin-top: 20px;
+    width: 103%;
+    height: 620px;
+    position:relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.divofbackground1 h3
+{
+  position:absolute;
+  right: 275px;;
+  top:45%;
+  font-size:50px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divofbackground1 p
+{
+    position:absolute;
+    right: 130px;
+    top:63%;
+    font-size:30px;
+    color:rgb(53, 52, 52);
+    display: flex;
+    flex-wrap: wrap;
+}
+.divofbackground1 a
+{
+    text-decoration: none;
+    background:rgb(180, 48, 233); ;
+    color:white;
+    padding:10px;
+    position:absolute;
+    right: 532px;
+    top: 80%;
+    border-radius: 5px;
+    width:120px;
+    text-align: center;
+}
+.divofbackground1 a:hover
+{
+    background:rgb(83, 54, 94) ;
+    transform: scale(1.111111 , 1.111111);
+    box-shadow: 0 0 2px rgb(61, 60, 60),
+                0 0 2px rgb(61, 60, 60),
+                0 0 2px rgb(61, 60, 60),
+                0 0 2px rgb(61, 60, 60);
+}
+.section1 .divofsection1
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+}  
+.icons
+{
+    display: flex;
+    justify-content: space-around;
+    color:blueviolet;
+}
+.icons #first
+{
+    position: relative;
+    top: 126px;
+    right: 140px;
+    transform: scaleX(-1);
+}
+.icons #second
+{
+    position: relative;
+    top: 126px;
+    right: 158px;
+    transform: scaleX(-1);
+}
+.icons #third
+{
+    position: relative;
+    top: 126px;
+    right: 165px;
+   
+}
+.icons i
+{
+   font-size: 60px;
+   direction: rtl;
+}
+
+.section1 .divofsection1 h5
+{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 500;
+   font-size: large;
+   margin-top: 70px;
+}
+.section1 .div2ofsection1 
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color:rgb(53, 51, 51);
+    margin-top: 20px;
+    line-height: 25px;
+}
+.section1 .div2ofsection1 .para3
+{
+    position: relative;
+    left:50px;
+}
+.section1 .div2ofsection1 .para4
+{
+    position: relative;
+    left:30px;
+}
+.section1 .div2ofsection1 .para5
+{
+    position: relative;
+    left:15px;
+}
+.secondline
+{
+    margin-top: 100px;
+    background-color: rgb(158, 158, 158);
+    opacity: 0.15;
+}
+.section2
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+} 
+.section2 .div2section2  , .section2 .div3section2  , .section2 .divsection2 {
+    width: 380px; 
+    height: 500px; 
+    overflow: hidden;
+}  
+.section2 .div2section2 img.children  , .section2 .div3section2 img.men  , .section2 .divsection2 img.women{
+    width: 400px;
+}
+
+/* .section2 .div2section2::after ,.section2 .div3section2::after ,.section2 .divsection2 ::after 
+ */
+
+ .section2 .div2section2 img.children::before{
+    content: '';
+    width:400px;
+    height:100px;
+    position: absolute;
+    top: 1110px;;
+    left:0;
+    z-index: 12;
+    background: linear-gradient(to bottom, #000 , transparent);
+} 
+.section2 .div2section2:hover   , .section2 .div3section2:hover   , .section2 .divsection2:hover{
+    width: 381px;
+    
+   
+ 
+}
+
+.section2 .div2section2 .children , .section2 .div3section2 .men , .section2 .divsection2 .women
+{
+    position: relative;
+    width: 280px;
+    height:500px;
+    transition: all 0.5s ease;
+}
+
+
+.section2 .div2section2 .para7 , .section2 .div2section2 .heading5 , .section2 .div3section2 .para8 , .section2 .div3section2 .heading6 , .section2 .divsection2 .para6 , .section2 .divsection2 .heading4
+{
+    position: relative;
+    bottom:70px;
+    left: 10px;
+    color:white;
+    font-family: sans-serif;   
+}
+.section2 .divsection2 .para6 , .section2 .divsection2 .heading4
+{
+position: relative;
+left:70px;
+}
+.section2 .div2section2 .heading5 , .section2 .div3section2 .heading6  , .section2 .divsection2 .heading4
+{
+    font-size: 40px;
+}
+.women
+{
+    margin-left: 60px;
+    
+}
+.women:hover
+{
+    transform: scale(1.1 , 1.1);
+    transition: all 0.5s ease;
+  
+ 
+}
+.men
+{
+    margin-right:60px;
+}
+.men:hover
+{
+    transform: scale(1.1 , 1.1); 
+    transition: all 0.5s ease;
+ 
+}
+.children:hover
+{
+    transform: scale(1.1 , 1.1);
+    transition: all 0.5s ease;
+} 
+.background{
+    width: 103%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px ;  
+    margin-left: 50px; 
+    position: relative; 
+    width: 100%; 
+    height: 400px; 
+  
+ 
+}
+
+.featured { 
+    width: 100%px; 
+    height: 40px;
+    font-size: 26px;   
+    text-align: center; 
+    margin-top: 50px;  
+    margin-bottom: 100px; 
+    
+   
+
+} 
+.featured i.fas {
+    transform: rotate(322deg); 
+    color: rgb(137 43 226 / 90%) ;
+    width: 50px;
+} 
+.section3 .divsection3 , .section3 .div2section3 , .section3 .div3section3
+{
+    background: rgba(255, 255, 255, 0.26);
+    width: 33%;
+    height:400px;
+    /* margin-top: 150px;  */
+    /* position: absolute;
+    top:40px; */
+}
+.section3 .divsection3 .cloth
+{
+    width:350px;
+    height:240px; 
+    background-size:contain ;
+}
+.section3 .divsection3 p , .section3 .div2section3 p ,.section3 .div3section3 p
+{
+    text-align: center;
+    margin-top: 12px;
+    font-family: sans-serif;
+}
+.section3 .divsection3 .para10 , .section3 .divsection3 .para12 ,.section3 .div2section3 .para10 , .section3 .div2section3 .para12 ,.section3 .div3section3 .para10 , .section3 .div3section3 .para12 
+{
+    color:rgb(83, 8, 153)
+}
+.section3 .divsection3 .para11 , .section3 .div2section3 .para11 ,.section3 .div3section3 .para11
+{
+    color:gray;
+}
+.section3 .divsection3 .para10 ,.section3 .div2section3 .para10 , .section3 .div3section3 .para10
+{
+    margin-top: 35px;
+}
+.section3 .div2section3 .shoes
+{
+    width:350px;
+    height:240px;
+}
+.section3 .div3section3 .cloth
+{
+    width:350px;
+    height:240px;
+}
+.section3 .divsection3
+{
+    margin-right: 10px;
+}
+.section3 .div3section3
+{
+    margin-left: 10px;
+}
+.section4
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:180px;
+}
+.section4 .border2
+{
+    border-top:2.5px solid blueviolet;
+    width:40px;
+    position: relative;
+    left:51%;
+    bottom:80px;
+}
+.section4 .divsection4 img
+{
+  position: relative;
+  right:130px;
+  top:30px;  
+  width:700px;
+  height:450px;
+}
+.section4 .para13
+{
+    position: relative;
+    bottom:60px;
+    left:43%;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.section4 .div2section4
+{
+    position: relative;
+    top: 160px;
+}
+.section4 .div2section4 .para14
+{
+    color:blueviolet;
+    font-size: 25px;
+    position: relative;
+    bottom:30px;
+    font-family: sans-serif;
+}
+.section4 .div2section4 .para15
+{
+   color:gray;
+}
+.section4 .div2section4 .para15 span
+{
+    color:blueviolet;
+}
+.section4 .div2section4 .para16
+{
+    color:gray;
+    line-height: 30px;
+    margin-top: 20px;
+    position: relative;
+    right:30px;
+}
+.section4 .div2section4 a
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left:60px;
+    top:40px;
+    background: blueviolet;
+    color:white;
+    padding:10px;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+    
+}
+.section4 .div2section4 a:hover
+{
+    background:rgb(83, 54, 94) ;
+    transform: scale(1.111111 , 1.111111);
+    box-shadow: 0 0 2px rgb(61, 60, 60),
+                0 0 2px rgb(61, 60, 60),
+                0 0 2px rgb(61, 60, 60),
+                0 0 2px rgb(61, 60, 60);
+}
+.thirdline
+{
+    margin-top:180px;
+    background-color: rgb(158, 158, 158);
+    opacity: 0.15;   
+}
+.section5 
+{
+    position: relative;
+    left:77%;
+    margin-top: 70px;
+    margin-right:90px;
+} 
+.section5 .divsection5 i{
+    position: relative;
+    top: 55px; 
+    /* color: blueviolet; */
+} 
+.section5 .divsection5 i.fa-phone-alt{
+    position: relative;
+    top: 70px;
+}
+.section5 .divsection5 i.fa-envelope-open{
+    position: relative;
+    top: 90px;
+}
+.section5 .divsection5 .heading7
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section5 .divsection5 .para18
+{
+    color:gray;
+    position: relative;
+    top:55px;
+    left:30px;
+}
+.section5 .div2section5 input
+{
+    border:1 solid gray;
+    padding:12px;
+    outline:none;
+    position: relative;
+    margin-top: 15px;
+
+}
+.section5 .div2section5 .para21
+{
+    background: blueviolet;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 132px;
+    top: 44px;
+    padding:9px;
+    border-radius:2px;
+    text-decoration: none;
+}
+.section5 .div2section5
+{
+    position: relative;
+    top:150px;
+}
+.section5 .div2section5 .para20
+{
+    font-size: 22px;
+}
+.section5 .divsection5 .para19
+{
+  position: relative;
+  top:80px;
+  left:30px;
+}
+.section5 .divsection5 .para17
+{
+    position: relative;
+    top:30px;
+    left:30px;
+}
+.divsection6
+{
+    position: relative;
+    bottom: 185px;
+    left:70px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section6 .div2section6
+{
+    margin-top: 25px;
+    color:gray;
+    line-height: 40px;
+    font-size: 15px;
+}
+.section6 .divsection6 .div3section6
+{
+    margin-top: 25px;
+    color:gray;
+    position: relative;
+    bottom: 185px;
+    left:210px;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section6 .div4section6
+{
+    margin-top: 25px;
+    color:gray;
+    position: relative;
+    bottom: 328px;
+    left: 462px;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section6 .div5section7
+{
+   position: absolute;
+   left:48%;
+   bottom: 259px;
+}
+.section6 .div5section7 img
+{
+    width:300px;
+    height:150px;
+    position: relative;
+    top:10px;
+}
+.section6 .div5section7 .para33
+{
+    position: relative;
+    bottom:18px;
+}
+.section6 .div5section7 .para34
+{
+    color:blueviolet;
+    position: relative;
+    top:20px;
+    font-size: 15px;
+}
+.section6 .div5section7 .para35
+{
+    color:gray;
+    position: relative;
+    top:30px;
+    font-size: 15px;
+
+}
+.para36
+{
+    color:gray;
+    text-align: center;
+    position: relative;
+    bottom:200px;
+}

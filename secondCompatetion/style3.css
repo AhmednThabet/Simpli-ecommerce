@@ -1,0 +1,599 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+height:1000px;
+overflow-x: hidden; 
+max-width: 100%;
+}
+.header1 .devolper-name{
+    position: relative; 
+    color:rgb(24, 23, 23);
+    border:black solid 2px; 
+    font-size: 18px;
+    width: 200px; 
+    height: 60px; 
+} 
+.header1 .devolper-name p{
+    position: absolute;
+    top: 20px; 
+    left: 40px;
+}
+
+.header1
+{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 50px;
+} 
+.header1 i{
+    padding: 0px 10px;
+
+}  
+
+.header1 i input{
+    width: 240px;
+    font-size: 16px; 
+    border: none; 
+    outline: none; 
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.39); 
+    transition: width 1s linear 2s;
+   
+
+} 
+.header1 i input:hover{ 
+    
+    padding-left: 10px;
+}
+.header1 i:hover{
+    transform: translate(0,-5px);
+    color: rgb(142, 42, 182); 
+
+
+} 
+.firstline
+{
+   margin-top: 40px;
+   background-color: rgb(158, 158, 158);
+   opacity: 0.15;
+}
+.divoflinks
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.divoflinks a
+{
+    text-decoration: none;
+    color:black;
+    margin:30px 0 0 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.divoflinks a:hover
+{
+    color:rgb(180, 48, 233);
+}
+.add{
+    margin-top: 20px;
+}
+.address{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(228, 220, 220, 0.432);  
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center;  
+    padding-left: 50px;  
+    font-size: 16px; 
+    font-weight: 400; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    
+}  
+.add .address p.home{  
+    margin: 10px 10px; 
+    color: rgb(97, 48, 233);
+
+
+}  
+.add .address i{  
+    transform: rotate(-90deg);
+    
+
+}  
+.section1
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    margin-top:100px;
+}
+.section1 .divsection1 .cloth
+{
+    width:600px;
+    height:450px;
+}
+.section1 .div2section1 .para1
+{
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+.section1 .div2section1 .para2 , .section1 .div2section1 .para3
+{
+    color:gray;
+    line-height: 25px;
+} 
+.section1 .div2section1 .para3
+{
+    margin-top: 20px;
+}
+.section1 .div2section1 .para4
+{
+    color:blueviolet;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.section1 .div2section1 form
+{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+    position: relative;
+    right:30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.section1 .div2section1 form input
+{
+    margin-left: 35px;
+}
+.section1 .div2section1 form .input5
+{
+    position: relative;
+    right:370px;
+    top:50px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px 20px 10px 30px;
+    outline:none;
+}
+.section1 .div2section1 form .plus
+{
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    left: 139px;
+    border:1px solid blueviolet;
+    color:blueviolet;
+    background: white;
+}
+.section1 .div2section1 form .plus:hover
+{
+    background: blueviolet;
+    color:white;
+}
+.section1 .div2section1 form .negative
+{
+    text-decoration: none;
+    position: absolute;
+    top: 51px;
+    left: 69px;
+    border: 1px solid blueviolet;
+    background: white;
+    padding: 7px;
+    width: 30px;
+    height: 36px;
+    text-align: center;
+    color:blueviolet;
+}
+.section1 .div2section1 form .negative:hover
+{
+    color:white;
+    background: blueviolet;
+}
+.section1 .div2section1 a
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    background: blueviolet;
+    padding:10px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 3px;
+    position: relative;
+    top:130px;
+}
+.background{
+    width: 103%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.041); 
+    margin-top: 150px;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px ;  
+    margin-left: 50px; 
+    position: relative; 
+    width: 100%; 
+    height: 400px; 
+  
+ 
+}
+
+.featured { 
+    width: 100%px; 
+    height: 40px;
+    font-size: 26px;   
+    text-align: center; 
+    margin-top: 50px;  
+    margin-bottom: 100px; 
+    
+   
+
+} 
+.featured i.fas {
+    transform: rotate(322deg); 
+    color: rgb(137 43 226 / 90%) ;
+    width: 50px;
+} 
+.section3 .divsection3 , .section3 .div2section3 , .section3 .div3section3
+{
+    background: rgba(255, 255, 255, 0.26);
+    width: 33%;
+    height:400px;
+    /* margin-top: 150px;  */
+    /* position: absolute;
+    top:40px; */
+}
+.section3 .divsection3 .cloth
+{
+    width:350px;
+    height:240px; 
+    background-size:contain ;
+}
+.section3 .divsection3 p , .section3 .div2section3 p ,.section3 .div3section3 p
+{
+    text-align: center;
+    margin-top: 12px;
+    font-family: sans-serif;
+}
+.section3 .divsection3 .para10 , .section3 .divsection3 .para12 ,.section3 .div2section3 .para10 , .section3 .div2section3 .para12 ,.section3 .div3section3 .para10 , .section3 .div3section3 .para12 
+{
+    color:rgb(83, 8, 153)
+}
+.section3 .divsection3 .para11 , .section3 .div2section3 .para11 ,.section3 .div3section3 .para11
+{
+    color:gray;
+}
+.section3 .divsection3 .para10 ,.section3 .div2section3 .para10 , .section3 .div3section3 .para10
+{
+    margin-top: 35px;
+}
+.section3 .div2section3 .shoes
+{
+    width:350px;
+    height:240px;
+}
+.section3 .div3section3 .cloth
+{
+    width:350px;
+    height:240px;
+}
+.section3 .divsection3
+{
+    margin-right: 10px;
+}
+.section3 .div3section3
+{
+    margin-left: 10px;
+}
+.section5 
+{
+    position: relative;
+    left:77%;
+}
+.section5 .divsection5 .heading7
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section5 .divsection5 .para18
+{
+    color:gray;
+    position: relative;
+    top:55px;
+    left:30px;
+}
+.section5 .div2section5 input
+{
+    border:1 solid gray;
+    padding:12px;
+    outline:none;
+    position: relative;
+    margin-top: 15px;
+
+}
+.section5 .div2section5 .para21
+{
+    background: blueviolet;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 132px;
+    top: 44px;
+    padding:9px;
+    border-radius:2px;
+    text-decoration: none;
+}
+.section5 .div2section5
+{
+    position: relative;
+    top:150px;
+}
+.section5 .div2section5 .para20
+{
+    font-size: 22px;
+}
+.section5 .divsection5 .para19
+{
+  position: relative;
+  top:80px;
+  left:30px;
+}
+.section5 .divsection5 .para17
+{
+    position: relative;
+    top:30px;
+    left:30px;
+}
+.divsection6
+{
+    position: relative;
+    bottom: 185px;
+    left:70px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section6 .div2section6
+{
+    margin-top: 25px;
+    color:gray;
+    line-height: 40px;
+    font-size: 15px;
+}
+.section6 .divsection6 .div3section6
+{
+    margin-top: 25px;
+    color:gray;
+    position: relative;
+    bottom: 185px;
+    left:210px;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section6 .div4section6
+{
+    margin-top: 25px;
+    color:gray;
+    position: relative;
+    bottom: 328px;
+    left: 462px;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section6 .div5section7
+{
+   position: absolute;
+   left:48%;
+   bottom: 259px;
+}
+.section6 .div5section7 img
+{
+    width:300px;
+    height:150px;
+    position: relative;
+    top:10px;
+}
+.section6 .div5section7 .para33
+{
+    position: relative;
+    bottom:18px;
+}
+.section6 .div5section7 .para34
+{
+    color:blueviolet;
+    position: relative;
+    top:20px;
+    font-size: 15px;
+}
+.section6 .div5section7 .para35
+{
+    color:gray;
+    position: relative;
+    top:30px;
+    font-size: 15px;
+
+}
+.para36
+{
+    color:gray;
+    text-align: center;
+    position: relative;
+    bottom:200px;
+}
+.section5 , .section6
+{
+    position: relative;
+    top:150px;
+} 
+
+.thirdline
+{
+    margin-top:80px;
+    background-color: rgb(158, 158, 158);
+    opacity: 0.15;   
+}
+.section5 
+{
+    height: auto;
+    position: relative;
+    left:77%;
+    margin-top: 70px;
+    margin-right:90px;
+}
+.section5 .divsection5 .heading7
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section5 .divsection5 .para18
+{
+    color:gray;
+    position: relative;
+    top:55px;
+    left:30px;
+}
+.section5 .div2section5 input
+{
+    border:1 solid gray;
+    padding:12px;
+    outline:none;
+    position: relative;
+    margin-top: 15px;
+
+}
+.section5 .div2section5 .para21
+{
+    background: blueviolet;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 132px;
+    top: 44px;
+    padding:9px;
+    border-radius:2px;
+    text-decoration: none;
+}
+.section5 .div2section5
+{
+    position: relative;
+    top:150px;
+}
+.section5 .div2section5 .para20
+{
+    font-size: 22px; 
+    
+
+} 
+
+.section5 .divsection5 .para19
+{
+  position: relative;
+  top:80px;
+  left:30px;
+}
+.section5 .divsection5 .para17
+{
+    position: relative;
+    top:30px;
+    left:30px;
+}
+.divsection6
+{
+    position: relative;
+    bottom: 185px;
+    left:70px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section6 .div2section6
+{
+    margin-top: 25px;
+    color:gray;
+    line-height: 40px;
+    font-size: 15px;
+}
+.section6 .divsection6 .div3section6
+{
+    margin-top: 25px;
+    color:gray;
+    position: relative;
+    bottom: 185px;
+    left:210px;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section6 .div4section6
+{
+    margin-top: 25px;
+    color:gray;
+    position: relative;
+    bottom: 328px;
+    left: 462px;
+    line-height: 40px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section6 .div5section7
+{
+   position: absolute;
+   left:48%;
+   bottom: 259px;
+}
+.section6 .div5section7 img
+{
+    width:300px;
+    height:150px;
+    position: relative;
+    top:10px;
+}
+.section6 .div5section7 .para33
+{
+    position: relative;
+    bottom:18px;
+}
+.section6 .div5section7 .para34
+{
+    color:blueviolet;
+    position: relative;
+    top:20px;
+    font-size: 15px;
+}
+.section6 .div5section7 .para35
+{
+    color:gray;
+    position: relative;
+    top:30px;
+    font-size: 15px;
+
+}
+.para36
+{
+    color:gray;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
